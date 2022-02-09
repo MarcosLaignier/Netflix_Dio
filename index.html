@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+                
+</head>
+<body>
+    <header class="cabecalho" id="cabecalho">
+        <h1 id="titulo">NETFLIX</h1>
+        <ul class="menuE">
+            <li class="indice"><a href="#">Inicio</a> </li>
+            <li class="indice"><a href="#">Series</a></li>
+            <li class="indice"><a href="#">Filmes</a></li>
+            <li class="indice"><a href="#">Bombando</a></li>
+            <li class="indice"><a href="#">Minha Lista</a></li>
+            
+        </ul>   
+        <ul class="menuD">
+            <li class="indiceD"><img src="./Img/Lupa_Branca.svg" alt="Lupa"></li>
+            <li class="indiceD">Infantil</li>
+            <li class="indiceD"><img src="./Img/Sino.svg" alt="sino"></li>
+            <li class="indiceD"><img src="" alt="Perfil"></li>
+        
+        </ul>
+    </header>
+    <nav>
+        <div class="dadosImg">
+        <img src="./Img/Dexter_intro.jpg" alt="" class="ImgIntro">
+            <p class="descritivoSerie">Dexter é um especialista forense  que passa o dia solucionando crimes e a noite cometendo assassinatos. Inteligente e bonito, o assassino em série vive em conflito com seu instinto de matador e o desejo pela felicidade.</p>
+            <button class="btnAssistir" ><img src="./Img/Play.svg" alt="" class="imgPlay">Assistir</button>
+            <button class="btnInfo"> <span class="T"><img src="./Img/Informacao.svg" alt="" class="imgInfo"> Mais Informacoes</span> </button>
+            <button class="btnSom"><img src="./Img/VolumeUp.svg" alt=""></button>
+            
+        </div>
+        <div class="sessaoSeries" id="sessaoS">
+            <h2 class="tituloSecundario">Series</h2>
+        <ul>
+             
+                <li class="lista_videos"><video src="./Videos/Series/Dexter01.mp4" id="videos" onmouseover="playVideos()"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter01.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter01.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter01.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter01.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter01.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                
+                <button id="LadoE" type="button"><img src="./Img/SetaB.svg" alt="" class="slideE"></button>
+                <button id="Lado" type="button"><img src="./Img/SetaB.svg" alt="" class="slideD"></button>
+        </ul>
+        
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="sessaoSeries" id="sessaoS">
+            <h2 class="tituloSecundario">Filmes</h2>
+        <ul>
+             
+                <li class="lista_videos"><video src="./Videos/Series/Dexter01.mp4" id="videos" onmouseover="playVideos()"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter01.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter01.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter01.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                
+                <button id="LadoE" type="button"><img src="./Img/SetaB.svg" alt="" class="slideE"></button>
+                <button id="Lado" type="button"><img src="./Img/SetaB.svg" alt="" class="slideD"></button>
+        </ul>
+        
+        </div>
+        <div class="oculta">
+            <ul>
+                <li class="dadosOcultos" id="dO">
+                    <br>
+                    <button class="bOcultos"><img src="./Img/Play.svg" alt=""></button>
+                    <button class="bOcultos"><img src="./Img/Joinha.svg" alt=""></button>
+                    <button class="bOcultos"><img src="./Img/Joinha.svg" alt=""></button>
+                    <p>T1 - Ep 01 Matando</p>
+                    
+                </li>
+                
+            </ul>
+        </div>
+        <div class="sessaoSeries" id="sessaoS">
+            <h2 class="tituloSecundario">Em Alta</h2>
+        <ul>
+             
+                <li class="lista_videos"><video src="./Videos/Series/Dexter01.mp4" id="videos" onmouseover="playVideos()"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter01.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter01.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter01.mp4" class="videos"></video></li>
+                <li class="lista_videos"><video src="./Videos/Series/Dexter02.mp4" class="videos"></video></li>
+                
+                <button id="LadoE" type="button"><img src="./Img/SetaB.svg" alt="" class="slideE"></button>
+                <button id="Lado" type="button"><img src="./Img/SetaB.svg" alt="" class="slideD"></button>
+        </ul>
+        
+        </div>
+
+</nav>
+<script src="./script.js"></script>
+</body>
+</html>
